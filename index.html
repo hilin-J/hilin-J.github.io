@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html,charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title>云平台管理系统</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main/blue-theme.css"   title="blue" />
+    <link rel="stylesheet" type="text/css" href="css/main/green-theme.css"  title="green" disabled="disabled" />
+    <link rel="stylesheet" type="text/css" href="css/main/orange-theme.css" title="orange" disabled="disabled"/>
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main/index.js"></script>
+</head>
+
+<body>
+	<div class="nav navbar-default navbar-fixed-top navbar-mystyle">
+		<div class="navbar-header">
+			<button class="navbar-toggle" >
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="" class="navbar-brand mystyle-brand">
+				<span class="glyphicon glyphicon-home"></span>
+			</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="li-border">
+					<a href="" class="mystyle-color">云平台管理系统</a>
+				</li>
+			</ul>	
+			<ul class="nav navbar-nav pull-right">
+				<li class="li-border">
+					<a href="#">
+						<span class="glyphicon glyphicon-bell"></span>
+						<span class="topbar-num">0</span>
+					</a>
+				</li>
+				<li class="li-border dropdown">
+					<a href="#" class="mystyle-color" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-search"></span>
+						<span>搜索</span>
+					</a>
+			         <div class="dropdown-menu search-dropdown">
+			            <div class="input-group">
+			                <input type="text" class="form-control">
+			                 <span class="input-group-btn">
+			                   <button type="button" class="btn btn-default">搜索</button>
+			                </span>
+			            </div>
+			         </div>					
+				</li>
+				<li class="li-border dropdown">
+					<a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown" aria-expand="false">
+						帮助与文档
+						<span class="caret"></span>						
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">帮助与文档</a></li>
+						<li class="divider"></li>
+						<li><a href="#">论坛</a></li>
+						<li class="divider"></li>
+						<li><a href="#">博客</a></li>
+					</ul>
+				</li>
+				<li class="li-border dropdown">
+					<a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown" aria-expand="false">
+						1242043471@qq.com
+						<span class="caret"></span>						
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">退出</a></li>
+					</ul>					
+				</li>
+				<li class="li-border dropdown">
+					<a href="javascript:;" class="dropdown-toggle mystyle-color" data-toggle="dropdown" aria-expand="false">
+						换肤
+						<span class="caret"></span>						
+					</a>
+					<ul class="dropdown-menu theme">
+						<li><a href="javascript:;" class="blue">蓝色</a></li>
+						<li class="divider"></li>
+						<li><a href="javascript:;" class="green">绿色</a></li>
+						<li class="divider"></li>
+						<li><a href="javascript:;" class="orange">橙色</a></li>
+					</ul>					
+				</li>				
+			</ul>		
+		</div>
+
+	</div>
+    <!-- 以上为顶部导航 -->
+    <div class="down-main">
+    	<div class="left-main left-full">
+    		<div class="sidebar-fold">
+    			<span class="glyphicon glyphicon-menu-hamburger"></span>
+    		</div>
+             
+            <div class="subNavBox">
+            	<div class="sBox">
+            		<div class="subNav sublist-down">
+            			<span class="title-icon glyphicon glyphicon-chevron-down"></span>
+            			<span class="sublist-title">用户中心</span>
+            		</div>
+            		<ul class="navContent" >
+            			<li class="active">
+            				<div class="showtitle" style="width: 100px;"><img src="images/leftImg.png" />
+            					H5+示例
+            				</div>
+            				<a href="#" data-id=''>
+            					<span class="sublist-icon glyphicon glyphicon-user"></span>
+            					<span class="sub-title">账户管理</span>
+            				</a>
+            			</li>
+            			<li>
+            				<div class="showtitle" style="width: 100px;"><img src="images/leftImg.png" />
+            					消息中心
+            				</div>
+            				<a href="#">
+            					<span class="sublist-icon glyphicon glyphicon-envelope"></span>
+            					<span class="sub-title">消息中心</span>
+            				</a>
+            			</li> 
+            			<li>
+            				<div class="showtitle" style="width: 100px;"><img src="images/leftImg.png" />
+            					短信
+            				</div>
+            				<a href="#">
+            					<span class="sublist-icon glyphicon glyphicon-bullhorn"></span>
+            					<span class="sub-title">短信</span>
+            				</a>
+            			</li>
+            			<li>
+            				<div class="showtitle" style="width: 100px;"><img src="images/leftImg.png" />
+            					实名认证
+            				</div>
+            				<a href="#">
+            					<span class="sublist-icon glyphicon glyphicon-credit-card"></span>
+            					<span class="sub-title">实名认证</span>
+            				</a>
+            			</li>  
+
+            		</ul>
+            	</div>
+				<div class="sBox">
+					<div class="subNav sublist-up">
+            			<span class="title-icon glyphicon glyphicon-chevron-up"></span>
+            			<span class="sublist-title">关于我们</span>						
+					</div>
+					<ul class="navContent" style="display: none;">
+            			<li>
+            				<div class="showtitle" style="width: 100px;"><img src="images/leftImg.png" />
+            					添加新闻
+            				</div>
+            				<a href="#" data-id=''>
+            					<span class="sublist-icon glyphicon glyphicon-pencil"></span>
+            					<span class="sub-title">添加新闻</span>
+            				</a>
+            			</li>						
+					</ul>
+				</div>
+
+            </div>
+
+    	</div>
+
+    	<div class="right-product right-full my-index">
+    		<div class="tabs-menu">
+				<div class="anchor-left">
+					<button type="button" class="roll-nav roll-right">
+						<span class="glyphicon glyphicon-backward"></span>
+					</button>					
+				</div>
+				<div class="anchor-right">
+					<button type="button" class="roll-nav roll-left roll-right">
+						<span class="glyphicon glyphicon-forward"></span>
+					</button>														
+				</div>
+				<div class="btn-group close-group">
+					<button type="button" class="btn close-nav dropdown-toggle" data-toggle="dropdown" aria-expand="false">
+						关闭操作<span class="caret"></span>						
+					</button>	
+					<ul class="dropdown-menu dropdown-menu-right" role="menu">
+						<li><a href="javascript:;">关闭其它</a></li>
+						<li class="divider"></li>
+						<li><a href="javascript:;">关闭所有</a></li>
+					</ul>	
+				</div>
+				<div class="context-menu">
+					<a href="javascript:;" class="active" data-id='../HTML/clock.html'>
+						首页
+					</a>
+				</div>
+    		</div>
+    		<div class="frames">
+    			<iframe frameborder="0"  width="100%" height="100%"  scrolling="auto" src="../HTML/clock.html">
+    			</iframe>
+    		</div>
+    	</div>
+
+    </div>
+
+</body>
+
+</html>
